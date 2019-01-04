@@ -1,0 +1,47 @@
+.header{
+    height: 250px;
+    width: 100%;
+    background-image: url('../../../assets/imagens/header.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 300%;
+    background-position-y: -70px;
+}
+
+@media only screen and (max-width: 1200px) {
+    .header{
+        background-size: 100% 250%;
+        background-position-y: -40px;
+    }
+}
+
+
+@media only screen and (max-width: 900px) {
+    .header{
+        background-size: 100% 250%;
+        background-position-y: -40px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .header{
+        background-size: 120% 250%;
+        background-position-y: -40px;
+        background-position-x: 50%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .header{
+        background-size: 140% 250%;
+        background-position-x: 50%;
+        background-position-y: -40px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .header{
+        background-size: 160% 200%;
+        background-position-x: 50%;
+        background-position-y: -40px;
+    }
+}
