@@ -14,6 +14,13 @@ import { CommonModule } from '@angular/common';
     FooterModule,
     BackgroundModule
   ],
-  declarations: [LayoutComponent]
+  declarations: [LayoutComponent],
+  exports: [
+    CommonModule,
+    NavbarModule,
+    HeaderModule,
+    FooterModule,
+    BackgroundModule
+  ]
 })
 export class LayoutModule { }
