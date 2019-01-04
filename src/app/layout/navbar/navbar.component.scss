@@ -1,6 +1,22 @@
+.background-navbar{
+    background-color: #000000;
+}
 .navbar{
     height: 50px;
     widows: 100px;
-    background-color: gray;
+    background-color: #000000;
+    box-shadow:10px 10px 10px #000;
+    -webkit-box-shadow:10px 10px 10px #000;
+    -moz-box-shadow: 10px 10px 10px #000;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
 }
 
+.image-logo{
+    width: 80px;
+    height: 100%;
+    background-image: url('../../../assets/imagens/navbar.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-left: 5px;
+}
