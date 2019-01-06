@@ -10,4 +10,7 @@
     background-image: url('./assets/imagens/background.png');
     background-repeat: no-repeat;
     background-size: 100% 100%;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
 }
